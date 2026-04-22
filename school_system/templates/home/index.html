@@ -1,0 +1,182 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Management Software</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header class="page-header" id="home">
+        <nav class="nav-bar">
+            <div class="nav-inner">
+                <div class="brand">EduManager</div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <a href="#" class="nav-btn nav-btn-primary">Register School</a>
+                    <a href="#" class="nav-btn nav-btn-outline">Login</a>
+                </div>
+            </div>
+        </nav>
+
+        <section class="hero-content">
+           
+            <h1 class="title-main">School Management Software</h1>
+            <p class="subtitle">
+                Manage students, teachers, attendance, exams, and analytics in one smart platform.
+            </p>
+            <div class="hero-buttons">
+                <a href="#" class="hero-btn hero-btn-primary">Register School</a>
+                <a href="#" class="hero-btn hero-btn-outline">Send Inquiry</a>
+            </div>
+        </section>
+    </header>
+
+    <section class="highlights">
+        <div class="highlights-wrapper">
+            <h2>Why Choose EduManager</h2>
+            <p class="highlights-subtitle">
+                Built for schools that want modern, reliable, and easy management.
+            </p>
+
+            <div class="highlights-grid">
+                <article class="highlight-card">
+                    <span class="card-icon"><i class="fa-solid fa-school"></i></span>
+                    <h3>Trusted by Institutions</h3>
+                    <p>Used by many schools and colleges for daily academic operations.</p>
+                </article>
+                <article class="highlight-card">
+                    <span class="card-icon"><i class="fa-solid fa-shield-halved"></i></span>
+                    <h3>Secure Data Handling</h3>
+                    <p>Student and school records are managed with strong data protection.</p>
+                </article>
+                <article class="highlight-card">
+                    <span class="card-icon"><i class="fa-solid fa-laptop-code"></i></span>
+                    <h3>Easy to Use Interface</h3>
+                    <p>Simple design helps staff quickly manage attendance, exams, and reports.</p>
+                </article>
+                <article class="highlight-card">
+                    <span class="card-icon"><i class="fa-solid fa-headset"></i></span>
+                    <h3>Dedicated Support</h3>
+                    <p>Our team provides continuous guidance and support whenever needed.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="features-wrapper">
+            <h2>Complete School Management Features</h2>
+            <p class="features-subtitle">
+                Manage daily school operations with easy-to-use modules.
+            </p>
+
+            <div class="feature-grid">
+                <article class="feature-card">
+                    <span class="card-icon"><i class="fa-solid fa-user-graduate"></i></span>
+                    <h3>Student Profile Management</h3>
+                    <p>Keep complete student information, records, and profile history in one place.</p>
+                </article>
+                <article class="feature-card">
+                    <span class="card-icon"><i class="fa-solid fa-chalkboard-user"></i></span>
+                    <h3>Teacher Management</h3>
+                    <p>Manage teacher details, assignments, and responsibilities efficiently.</p>
+                </article>
+                <article class="feature-card">
+                    <span class="card-icon"><i class="fa-solid fa-square-poll-vertical"></i></span>
+                    <h3>Result and Ranking Management</h3>
+                    <p>Publish exam results and generate class ranking reports with ease.</p>
+                </article>
+                <article class="feature-card">
+                    <span class="card-icon"><i class="fa-solid fa-book-open-reader"></i></span>
+                    <h3>Course Management</h3>
+                    <p>Organize classes, subjects, and course structures for every grade level.</p>
+                </article>
+                <article class="feature-card">
+                    <span class="card-icon"><i class="fa-solid fa-chart-line"></i></span>
+                    <h3>Performance Analysis</h3>
+                    <p>Track academic performance with smart analytics and progress insights.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-wrapper">
+            <span class="contact-badge">Contact Us</span>
+            <h2 class="contact-title">Contact<span>Information</span></h2>
+            <p class="contact-subtitle">
+                For any questions or assistance, please contact us. We are always here to help you.
+            </p>
+
+            <div class="contact-grid">
+                <article class="contact-card">
+                    <span class="card-icon"><i class="fa-solid fa-phone"></i></span>
+                    <h3>Phone Numbers</h3>
+                    <ul>
+                        <li><span>9801854143</span><small>Sales</small></li>
+                        <li><span>9801854141</span><small>Sales</small></li>
+                        <li><span>9860805126</span><small>Sales</small></li>
+                        <li><span>9802007373</span><small>General</small></li>
+                    </ul>
+                </article>
+
+                <article class="contact-card">
+                    <span class="card-icon"><i class="fa-solid fa-envelope"></i></span>
+                    <h3>Email Address</h3>
+                    <p class="contact-link">info@EduManager.com.np</p>
+                    <p>For general inquiries and support requests.</p>
+                </article>
+
+                <article class="contact-card">
+                    <span class="card-icon"><i class="fa-solid fa-location-dot"></i></span>
+                    <h3>Office Address</h3>
+                    <p>Banepa</p>
+                    <p>Kathmandu, Nepal</p>
+                    <p class="contact-link">Check our Location</p>
+                </article>
+
+                <article class="contact-card">
+                    <span class="card-icon"><i class="fa-regular fa-clock"></i></span>
+                    <h3>Working Hours</h3>
+                    <p>Sun - Fri: 7AM - 5:30PM</p>
+                    <p>Saturday: Closed</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-top">
+        
+
+                <div class="footer-contact">
+                    <a href="tel:9801854143">9801854143</a>
+                    <a href="mailto:info@paathshala.com.np">info@EduManager.com.np</a>
+                </div>
+
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 EduManager. All rights reserved.</p>
+                <p>Made with love in Nepal.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
